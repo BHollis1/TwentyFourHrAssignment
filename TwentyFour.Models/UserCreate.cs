@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace TwentyFour.Models
 {
-    public class Class1
+    public class UserCreate
     {
+        public string Name { get; set; }
+
+        public string Email { get; set; }
     }
 }

@@ -10,6 +10,7 @@ using Microsoft.Owin.Security.OAuth;
 using Owin;
 using TwentyFourHrAssignment.Providers;
 using TwentyFourHrAssignment.Models;
+using TwentyFour.Data;
 
 namespace TwentyFourHrAssignment
 {

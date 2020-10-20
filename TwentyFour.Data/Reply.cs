@@ -4,9 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace TwentyFour.Services
+namespace TwentyFour.Data
 {
-    public class Class1
+    public class Reply : Comment
     {
+        public Comment ReplyComment { get; set; }
     }
 }
