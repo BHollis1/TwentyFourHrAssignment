@@ -6,12 +6,8 @@ using System.Threading.Tasks;
 
 namespace TwentyFour.Data
 {
-    public class User
+    public class Reply : Comment
     {
-        public Guid Id { get; set; }
-
-        public string Name { get; set; }
-
-        public string Email { get; set; }
+        public Comment ReplyComment { get; set; }
     }
 }

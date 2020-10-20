@@ -6,12 +6,10 @@ using System.Threading.Tasks;
 
 namespace TwentyFour.Data
 {
-    public class User
+    public class Like
     {
-        public Guid Id { get; set; }
+        public Post LikedPost { get; set; }
 
-        public string Name { get; set; }
-
-        public string Email { get; set; }
+        public User Liker { get; set; }
     }
 }
