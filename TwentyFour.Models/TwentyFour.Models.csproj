@@ -48,6 +48,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="PostCreate.cs" />
+    <Compile Include="PostListItem.cs" />
     <Compile Include="UserCreate.cs" />
     <Compile Include="UserListItem.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -55,6 +57,12 @@
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\TwentyFour.Data\TwentyFour.Data.csproj">
+      <Project>{BB54AF2D-1938-49EC-81B4-D555D9692572}</Project>
+      <Name>TwentyFour.Data</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
