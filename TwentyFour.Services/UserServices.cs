@@ -17,7 +17,7 @@ namespace TwentyFour.Services
             _userId = userId;
         }
 
-        public bool CreateNote(UserCreate model)
+        public bool CreateUser (UserCreate model)
         {
 
             var entity =
@@ -34,7 +34,7 @@ namespace TwentyFour.Services
             }
         }
 
-        public IEnumerable<UserListItem> GetNotes()
+        public IEnumerable<UserListItem> GetUsers()
         {
             using (var ctx = new ApplicationDbContext())
             {
